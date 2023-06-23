@@ -1,4 +1,3 @@
-
 export default {
   COLORS: {
     BACKGROUND_900: '#232129',
@@ -10,6 +9,9 @@ export default {
 
     GRAY_100: '#999591',
     GRAY_300: '#666360',
+
+    PINK_900: '#712d59',
+    PINK_800: '#cb2791',
 
     RED: '#FF002E'
   }

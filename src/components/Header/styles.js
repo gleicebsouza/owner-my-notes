@@ -6,16 +6,14 @@ export const Container = styled.div`
   height: 105px;
   width: 100%;
 
-  border-bottom-width: 1px;
+  border-bottom-width:1px;
   border-bottom-style: solid;
-  border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+  border-bottom-color: ${({ theme }) => theme.COLORS.PINK_900};
 
   display: flex;
   justify-content: space-between;
 
   padding: 0 80px;
-
-  background: red;
 `
 export const Profile = styled.div`
   display: flex;
@@ -44,9 +42,10 @@ export const Profile = styled.div`
 `
 export const Logout = styled.button`
   border: none;
+  background:none;
 
   > svg {
-    color: ${({ theme }) => theme.COLORS.ORANGE};
+    color: ${({ theme }) => theme.COLORS.GRAY_100};
     font-size: 24px;
   }
 `
