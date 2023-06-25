@@ -25,9 +25,8 @@ export default createGlobalStyle`
     cursor:pointer;
     transition:filter 0.2s;
   }
-  button:hoover, a:hover{
+  button:hover, a:hover{
     filter: brightness(0.9);
   }
-
 `
 

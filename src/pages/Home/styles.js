@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 100vh;
 
   display: grid;
-  grid-template-columns: 250px;
+  grid-template-columns: 250px auto;
   grid-template-rows: 105px 128px auto 64px;
   grid-template-areas:
     'brand header'
@@ -18,25 +18,39 @@ export const Container = styled.div`
 
 export const Brand = styled.div`
   grid-area: brand;
-  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+
+  > h1 {
+    font-size: 24px;
+    color: ${({ theme }) => theme.COLORS.PINK_800};
+  }
+  //background-color: green;
 `
 
 export const Menu = styled.ul`
-  grid-area: brand;
-  background-color: yellow;
+  grid-area: menu;
+  //background-color: yellow;
 `
 
 export const Search = styled.div`
-  grid-area: brand;
-  background-color: green;
+  grid-area: search;
+  //background-color: violet;
 `
 
 export const Content = styled.div`
-  grid-area: brand;
-  background-color: blue;
+  grid-area: content;
+  //background-color: blue;
 `
 
 export const NewNote = styled.div`
-  grid-area: brand;
-  background-color: violet;
+  grid-area: newnote;
+  //background-color: violet;
 `

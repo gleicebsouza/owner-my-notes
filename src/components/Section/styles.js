@@ -10,7 +10,7 @@ export const Container = styled.section`
     
     border-bottom-width:1px;
     border-bottom-style:solid;
-    border-bottom-color:${({ theme}) => theme.COLORS.BACKGROUND_700};
+    border-bottom-color:${({ theme}) => theme.COLORS.PINK_900};
     
     padding-bottom:16px;
     margin-bottom:24px;

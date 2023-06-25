@@ -12,7 +12,7 @@ export const Container = styled.div`
 
   > main {
     grid-area: content;
-    overflow: hidden; // quando houver conteudo na vertical, aparecer scroll
+    overflow-y: scroll; // quando houver conteudo na vertical, aparecer scroll
     padding: 64px 0;
   }
 `
