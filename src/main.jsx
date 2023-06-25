@@ -6,6 +6,7 @@ import GlobalStyles from './styles/global'
 import theme from './styles/theme'
 //import { Details } from './pages/Details/Index'
 import { Home } from './pages/Home'
+//import { Home } from './pages/Home'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
