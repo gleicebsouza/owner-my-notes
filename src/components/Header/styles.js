@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: 105px;
   width: 100%;
 
-  border-bottom-width:1px;
+  border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
@@ -42,7 +42,7 @@ export const Profile = styled.div`
 `
 export const Logout = styled.button`
   border: none;
-  background:none;
+  background: none;
 
   > svg {
     color: ${({ theme }) => theme.COLORS.GRAY_100};
