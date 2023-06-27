@@ -3,7 +3,9 @@ import { Container, Brand,Menu,Search,Content,NewNote } from './styles'
 
 import {Header} from '../../components/Header'
 import {Input} from '../../components/Input/index'
+import {Section} from '../../components/Section'
 import {ButtonText} from '../../components/ButtonText'
+import { Note } from '../../components/Note'
 
 export function Home(){
   return(
@@ -24,6 +26,17 @@ export function Home(){
         </Search>
         
         <Content>
+          <Section title="Minhas Notas">
+            <Note data={{
+              title: 'React',
+              tags:[
+              { id:'1',name:'React'},
+              { id:'2',name:'Node'},
+              { id:'3',name:'Typescript'}
+            ]}}
+             />
+           
+          </Section>
         </Content>
         <NewNote>
           <FiPlus/>

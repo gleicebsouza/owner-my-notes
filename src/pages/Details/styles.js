@@ -12,7 +12,7 @@ export const Container = styled.div`
 
   > main {
     grid-area: content;
-    overflow-y: scroll; // quando houver conteudo na vertical, aparecer scroll
+    overflow-y: auto;
     padding: 64px 0;
   }
 `
@@ -33,16 +33,16 @@ export const Content = styled.div`
   margin: 0 auto;
 
   > button:first-child {
-    align-self:end ; //alinhar apenas esse elemento
+    align-self: end; //alinhar apenas esse elemento
   }
-  >h1{
-    font-weight:500;
-    font-size:28px;
-    padding-top:64px;
+  > h1 {
+    font-weight: 500;
+    font-size: 28px;
+    padding-top: 64px;
   }
-  >p{
-    font-size:16px;
-    margin-top:16px;
+  > p {
+    font-size: 16px;
+    margin-top: 16px;
     text-align: justify;
   }
 `
