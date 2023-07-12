@@ -32,13 +32,13 @@ export function Home(){
               tags:[
               { id:'1',name:'React'},
               { id:'2',name:'Node'},
-              { id:'3',name:'Typescript'}
+              { id:'3',name:'Sql'}
             ]}}
              />
            
           </Section>
         </Content>
-        <NewNote>
+        <NewNote to="/new">
           <FiPlus/>
             Criar nota
 

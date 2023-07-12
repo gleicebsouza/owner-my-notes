@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
 import {Container,Form,Avatar} from './styles'
@@ -8,9 +9,9 @@ export function Profile(){
     <Container>
       <header>
 
-        <a href="/">
+        <Link to="/">
           <FiArrowLeft/>
-        </a>
+        </Link>
    
       </header>
 

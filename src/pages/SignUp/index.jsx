@@ -2,6 +2,7 @@ import { FiLock, FiMail, FiUser } from 'react-icons/fi';
 import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
 import { Background, Container, Form } from './styles';
+import { Link } from 'react-router-dom'
 
 export function SignUp(){
   return(
@@ -9,7 +10,7 @@ export function SignUp(){
       <Background/>
       <Form>
       <h1>Notes</h1>
-        <p>Aplicação para salvar e gerencias seus links úteis</p>
+        <p>Aplicação para salvar e gerenciar seus links úteis</p>
         
         <h2>Crie sua conta</h2>
         
@@ -33,7 +34,7 @@ export function SignUp(){
 
           <Button title="cadastrar"/>
           
-          <a href="#">Voltar para o login</a>
+          <Link to="/">Voltar para o login</Link>
 
       </Form>
         

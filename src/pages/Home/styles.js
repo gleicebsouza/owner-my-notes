@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const Container = styled.div`
   width: 100%;
@@ -61,15 +62,16 @@ export const Content = styled.div`
   //background-color: blue;
 `
 
-export const NewNote = styled.div`
+export const NewNote = styled(Link)`
   grid-area: newnote;
 
   background-color: ${({ theme }) => theme.COLORS.PINK_800};
+  color:${({theme}) => theme.COLORS.BACKGROUND_900};
   display: flex;
   align-items: center;
   justify-content: center;
 
-  border: none;
+ 
 
   svg {
     margin-right: 8px;
