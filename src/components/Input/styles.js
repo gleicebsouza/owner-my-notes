@@ -16,7 +16,7 @@ export const Container = styled.div`
     padding: 12px;
     color: ${({ theme }) => theme.COLORS.WHITE};
     background: transparent;
-    
+    border: none;
 
     &:placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_300};
@@ -24,7 +24,6 @@ export const Container = styled.div`
   }
   > svg {
     margin-left: 16px;
-    cursor:pointer;
+    cursor: pointer;
   }
-`;
-
+`
