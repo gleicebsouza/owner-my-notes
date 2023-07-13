@@ -12,8 +12,6 @@ Projeto React criado usando o Vite,styled-components e outras bibliotecas.
 
 
 ## DEPLOY ##
-https://layout-animado-meb7h1vow-gleicebsouza.vercel.app/
-<br>
-https://gleicebsouza.github.io/layout-animado-css-aula/
+[indisponivel no momento]
 
 ## 🔖PROJETO ##
