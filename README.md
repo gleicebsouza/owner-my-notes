@@ -2,7 +2,7 @@
 Projeto React criado usando o Vite,styled-components e outras bibliotecas.
 
 - [x] Fundamentos do React,executar projeto
-- [ ] Estruturar pastas,arquivos dentro do projeto React
+- [x] Estruturar pastas,arquivos dentro do projeto React
 - [x] Criação de Componentes
 - [x] Utilização do react DOM
 - [x] Uso de props
