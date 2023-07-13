@@ -1,5 +1,4 @@
 # owner-my-notes
-
 Projeto React criado usando o Vite,styled-components e outras bibliotecas.
 
 - [x] Fundamentos do React,executar projeto
