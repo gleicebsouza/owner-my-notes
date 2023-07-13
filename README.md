@@ -1,4 +1,5 @@
 # owner-my-notes
+
 Projeto React criado usando o Vite,styled-components e outras bibliotecas.
 
 - [x] Fundamentos do React,executar projeto
@@ -10,6 +11,8 @@ Projeto React criado usando o Vite,styled-components e outras bibliotecas.
 - [x] Criação de rotas na aplicação
 - [x] Navegação
 
+<br/>
+<br/>
 In the project directory, you can run:
 
 ### `npm run dev`
