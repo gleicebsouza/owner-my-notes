@@ -6,6 +6,18 @@ export default createGlobalStyle`
     padding:0;
     box-sizing: border-box;
   }
+
+  html{
+    @media(min-width:1080px){ 
+      font-size:93.75%; //15px
+    }
+    @media(max-width:720px){
+      font-size:87.5%;//14px
+    }
+
+  }
+
+
   body{
     background-color:${({ theme }) => theme.COLORS.BACKGROUND_700};
     color:${({ theme }) => theme.COLORS.WHITE};
@@ -29,4 +41,3 @@ export default createGlobalStyle`
     filter: brightness(0.9);
   }
 `
-
